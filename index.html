@@ -2,105 +2,113 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1.0"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Saba Latif</title>
+
   <meta
     name="description"
-    content="Academic homepage of Saba Latif, Ph.D. candidate in Computer Science at Sapienza University of Rome. Research in multi-paradigm process models, formal methods, IoT and smart cities."
+    content="Academic homepage of Saba Latif (Ph.D. Candidate, Sapienza University of Rome). Research in Object-Centric Event Data (OCED), object-centric process mining, formal methods, verification, knowledge graphs."
   />
+
   <link rel="stylesheet" href="style.css" />
 
-  <!-- Basic structured data for better discovery -->
+  <!-- Structured data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Saba Latif",
-    "jobTitle": "Ph.D. Candidate",
-    "url": "https://your-username.github.io",
+    "honorificSuffix": "Ph.D. Candidate",
+    "jobTitle": "Ph.D. Candidate in Computer Science",
     "affiliation": {
       "@type": "Organization",
       "name": "Sapienza University of Rome"
     },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Rome",
+      "addressCountry": "Italy"
+    },
+    "email": "mailto:saba.latif@uniroma1.it",
+    "url": "https://sabalati.github.io/",
     "sameAs": [
-      "https://scholar.google.com/citations?hl=en&user=symN9XYAAAAJ",
-      "https://www.linkedin.com/in/saba-latif-8b053b244"
+      "https://scholar.google.com/citations?user=symN9XYAAAAJ&hl=en&oi=ao",
+      "https://www.linkedin.com/in/saba-latif-8b053b244/"
     ]
   }
   </script>
 </head>
+
 <body>
   <!-- ===== Header / Navigation ===== -->
   <header class="site-header">
     <div class="container header-content">
       <div class="branding">
         <h1>Saba Latif</h1>
-        <p class="subtitle">
-          Ph.D. Candidate · Sapienza University of Rome
-        </p>
+        <p class="subtitle">Ph.D. Candidate · Sapienza University of Rome · Rome, Italy</p>
       </div>
+
       <nav class="nav">
         <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
         <a href="#experience">Experience</a>
         <a href="#education">Education</a>
-        <a href="#publications">Publications</a>
-        <a href="#activities">Activities</a>
+        <a href="#talks">Talks</a>
+        <a href="#service">Service</a>
         <a href="#awards">Awards</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
-        <!-- Update this path to match your repo structure -->
-        <a href="static/uploads/CV_Saba_Latif.pdf" target="_blank" rel="noopener">CV</a>
+        <!-- Update path if your repo differs -->
+        <a href="static/uploads/CV_Saba_Latif.pdf" target="_blank" rel="noopener">CV (PDF)</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <!-- ===== Hero / About ===== -->
+    <!-- ===== About / Hero ===== -->
     <section id="about" class="section hero">
       <div class="container hero-layout">
         <div class="hero-main">
           <h2>About</h2>
+
           <p class="lead">
-            I am a third-year <strong>Ph.D. candidate in Computer Science</strong> at
-            <strong>Sapienza University of Rome</strong>, Italy. My research focuses on
-            <strong>multi-paradigm process models</strong> for discovery, monitoring and reasoning,
-            with a particular interest in the <strong>Object-Centric Event Data (OCED) meta-model</strong>
-            and its semantic encoding.
+            I am a <strong>Ph.D. candidate in Computer Science</strong> at
+            <strong>Sapienza University of Rome</strong> (2021–2026).
+            My thesis focuses on <strong>a semantic and formal encoding of Object-Centric Event Data (OCED)</strong>,
+            with applications to <strong>compliance checking</strong>, <strong>monitoring</strong>, and <strong>verification</strong>
+            over object-centric event logs and knowledge graphs.
           </p>
+
           <p>
-            My broader research interests include <strong>formal methods</strong>, <strong>smart cities</strong>,
-            <strong>Internet of Things (IoT)</strong>, and <strong>formal modeling of complex systems</strong>.
-            I have worked extensively with specification and verification techniques such as
-            <strong>TLA+</strong> and <strong>VDM-SL</strong>, and with formal models for smart city
-            scenarios including smart markets, parking, waste management, traffic monitoring, and
-            cyber-physical systems.
+            My research interests include <strong>Object-Centric Process Mining</strong>, <strong>formal methods</strong>,
+            <strong>formal verification</strong>, <strong>satisfiability/constraint solving</strong>,
+            <strong>runtime verification</strong>, and <strong>semantic technologies (RDF/OWL, SPARQL)</strong>.
+            I also work on applied domains such as <strong>IoT</strong>, <strong>smart systems</strong>, and <strong>smart cities</strong>.
           </p>
-          <p>
-            Before starting my Ph.D., I held academic and teaching positions in Pakistan as a
-            <strong>Research Associate</strong> at COMSATS University Islamabad, Sahiwal campus,
-            a <strong>Web Instructor</strong> at Desired Technologies software house, and a
-            <strong>Lecturer</strong> at Govt Binat ul Islam College, Sahiwal. :contentReference[oaicite:1]{index=1}
+
+          <p class="meta">
+            <strong>Thesis submission:</strong> Feb 2026 · <strong>Final defense:</strong> May 2026
           </p>
 
           <div class="hero-actions">
             <a class="button" href="#publications">Publications</a>
-            <a class="button ghost" href="https://scholar.google.com/citations?hl=en&user=symN9XYAAAAJ" target="_blank" rel="noopener">
+            <a class="button ghost" href="https://scholar.google.com/citations?user=symN9XYAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">
               Google Scholar
             </a>
-            <a class="button ghost" href="static/uploads/CV_Saba_Latif.pdf" target="_blank" rel="noopener">CV</a>
+            <a class="button ghost" href="static/uploads/CV_Saba_Latif.pdf" target="_blank" rel="noopener">
+              CV (PDF)
+            </a>
           </div>
         </div>
 
         <aside class="hero-aside">
           <div class="profile-card">
-            <!-- If you have a photo, update the src path -->
-            <!-- <img src="images/avatar.jpg" alt="Portrait of Saba Latif" class="profile-photo" /> -->
-            <div class="profile-photo placeholder">
-              <span>Your Photo</span>
-            </div>
+            <!-- Optional: add your photo -->
+            <!-- <img src="images/saba.jpg" alt="Portrait of Saba Latif" class="profile-photo" /> -->
+            <div class="profile-photo placeholder"><span>Photo</span></div>
+
             <div class="profile-meta">
               <p class="profile-name">Saba Latif</p>
               <p class="profile-role">Ph.D. Candidate in Computer Science</p>
@@ -108,17 +116,14 @@
                 Department of Computer Science<br />
                 Sapienza University of Rome
               </p>
-              <p class="profile-location">
-                Rome, Italy
-              </p>
+              <p class="profile-location">Rome, Italy</p>
             </div>
+
             <div class="profile-links">
-              <a href="https://scholar.google.com/citations?hl=en&user=symN9XYAAAAJ" target="_blank" rel="noopener">
-                Google Scholar
-              </a>
-              <a href="https://www.linkedin.com/in/saba-latif-8b053b244" target="_blank" rel="noopener">
-                LinkedIn
-              </a>
+              <a href="mailto:saba.latif@uniroma1.it">saba.latif@uniroma1.it</a>
+              <a href="https://sabalati.github.io/" target="_blank" rel="noopener">Website</a>
+              <a href="https://www.linkedin.com/in/saba-latif-8b053b244/" target="_blank" rel="noopener">LinkedIn</a>
+              <a href="https://scholar.google.com/citations?user=symN9XYAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Scholar</a>
             </div>
           </div>
 
@@ -127,15 +132,15 @@
             <dl>
               <div class="metric">
                 <dt>Role</dt>
-                <dd>3rd-year Ph.D. Candidate</dd>
+                <dd>Ph.D. Candidate</dd>
               </div>
               <div class="metric">
                 <dt>Institution</dt>
                 <dd>Sapienza University of Rome</dd>
               </div>
               <div class="metric">
-                <dt>Since</dt>
-                <dd>Nov 2021</dd>
+                <dt>Period</dt>
+                <dd>2021–2026</dd>
               </div>
             </dl>
           </div>
@@ -143,95 +148,62 @@
       </div>
     </section>
 
-    <!-- ===== Experience ===== -->
-    <section id="experience" class="section">
+    <!-- ===== Research ===== -->
+    <section id="research" class="section">
       <div class="container">
-        <h2>Employment & Experience</h2>
+        <h2>Research</h2>
+
         <div class="cards-grid">
           <article class="card">
-            <h3>Ph.D. Candidate in Computer Science</h3>
-            <p class="meta">
-              Nov 2021 – present · Sapienza University of Rome, Italy
-            </p>
+            <h3>Object-Centric Event Data (OCED)</h3>
             <p>
-              Research on <strong>multi-paradigm process models</strong> for discovery, monitoring and
-              reasoning, with a project titled
-              <em>A Semantic Encoding for the Specification of the Object Centric Event Data (OCED) Meta-model</em>.
-              The work combines formal methods, process modeling, and semantic technologies.
+              Developed <strong>formal</strong> and <strong>semantic</strong> reference implementations of the
+              OCED meta-model (IEEE), including knowledge-graph encodings and tooling to support
+              reasoning, monitoring, and compliance checking over object-centric event data.
             </p>
           </article>
 
           <article class="card">
-            <h3>Research Associate</h3>
-            <p class="meta">
-              Apr 2018 – Oct 2021 · COMSATS University Islamabad, Sahiwal (Pakistan)
-            </p>
+            <h3>Verification & Compliance</h3>
             <p>
-              Conducted research in computer science and smart city applications, co-authored multiple
-              conference papers on <strong>blockchain-based formal models</strong>, <strong>smart markets</strong>,
-              <strong>smart parking and waste management</strong>, <strong>e-health</strong>, and
-              <strong>smart offices</strong>.
+              Focus on <strong>temporal logic</strong>, <strong>constraint solving</strong>, and <strong>Alloy</strong>-driven verification
+              to check behavioral properties and compliance constraints, bridging formal specifications
+              with object-centric logs and knowledge graphs.
             </p>
           </article>
 
           <article class="card">
-            <h3>Web Instructor</h3>
-            <p class="meta">
-              Oct 2016 – Apr 2018 · Desired Technologies software house (Pakistan)
-            </p>
+            <h3>Smart Systems</h3>
             <p>
-              Taught web technologies and practical development skills, preparing students for
-              software development roles in industry.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Lecturer</h3>
-            <p class="meta">
-              Jun 2014 – Feb 2016 · Govt Binat ul Islam College, Sahiwal (Pakistan)
-            </p>
-            <p>
-              Lecturer in computer science and related subjects, contributing to undergraduate-level
-              teaching and student mentoring.
+              Formal modeling and verification of <strong>IoT</strong> and <strong>blockchain-enabled smart systems</strong>
+              (e.g., smart city components) using methods such as <strong>TLA+</strong> and other formal languages.
             </p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ===== Education ===== -->
-    <section id="education" class="section alt">
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="section alt">
       <div class="container">
-        <h2>Education</h2>
+        <h2>Projects</h2>
+
         <div class="cards-grid">
           <article class="card">
-            <h3>Ph.D. in Computer Science</h3>
-            <p class="meta">
-              2021 – present · Sapienza University of Rome, Italy
-            </p>
+            <h3>PINPOINT (PRIN Project)</h3>
+            <p class="meta">Research Staff Member · 2025</p>
             <p>
-              Research direction: <strong>Multi-paradigm process models: discovery, monitoring and reasoning</strong>.<br />
-              Project title: <em>A Semantic Encoding for the Specification of the Object Centric Event Data (OCED) Meta-model</em>.
+              Participation in PRIN research project <strong>“A semantic encoding of object-centric event data” (PINPOINT)</strong>,
+              grant number <strong>B87G22000450001</strong>. Funding: European Union Next-GenerationEU (PNRR).
             </p>
           </article>
 
           <article class="card">
-            <h3>M.S. in Computer Science</h3>
-            <p class="meta">
-              2016 – 2018 · COMSATS University Islamabad, Pakistan
-            </p>
+            <h3>Flask-based OCED Tooling</h3>
+            <p class="meta">Research software</p>
             <p>
-              Thesis: <em>Modeling of Smart City using TLA+ and IoT</em>.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>BS in Information Technology</h3>
-            <p class="meta">
-              2012 – 2016 · Multan, Pakistan
-            </p>
-            <p>
-              Thesis: <em>Web Based Smart Home Automation System</em>.
+              Built research prototypes and interfaces (Flask-based) for OCED/knowledge-graph generation and
+              compliance checking workflows, connecting event logs to RDF/OWL + SPARQL pipelines.
             </p>
           </article>
         </div>
@@ -241,369 +213,254 @@
     <!-- ===== Publications ===== -->
     <section id="publications" class="section">
       <div class="container">
-        <h2>Conference Publications</h2>
+        <h2>Selected Publications</h2>
+
         <p class="section-note">
-          Below is the list of conference proceedings from my CV.
-          For the latest updates, see my
-          <a href="https://scholar.google.com/citations?hl=en&user=symN9XYAAAAJ" target="_blank" rel="noopener">
-            Google Scholar profile
-          </a>. :contentReference[oaicite:2]{index=2}
+          For the full list, see my
+          <a href="https://scholar.google.com/citations?user=symN9XYAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">
+            Google Scholar
+          </a>.
         </p>
 
+        <h3>Preprints (2025)</h3>
         <ol class="pub-list">
           <li class="pub-item">
-            <span class="pub-title">
-              Blockchain-based automated formal model for smart market system.
-            </span>
-            <span class="pub-authors">
-              M. F. Afzaal, A. Rehman, <strong>S. Latif</strong>, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2021 International Bhurban Conference on Applied Sciences and Technologies (IBCAST)</em>, pp. 395–400, 2021.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/IBCAST51254.2021.9393231" target="_blank" rel="noopener">DOI</a>
-            </span>
+            <span class="pub-title">Alloy-Driven Verification of Object-Centric Event Data: From Temporal Logic to Knowledge Graphs.</span>
+            <span class="pub-authors"><strong>S. Latif</strong>, H. Latif, T. U. Rehman, M. R. U. Rahman</span>
+            <span class="pub-venue"><em>arXiv preprint</em>, 2025.</span>
           </li>
-
           <li class="pub-item">
-            <span class="pub-title">
-              Blockchain based automated formal model for safety and security in smart parking system.
-            </span>
-            <span class="pub-authors">
-              M. F. Afzaal, A. Rehman, <strong>S. Latif</strong>, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2019 4th International Conference on Emerging Trends in Engineering, Sciences and Technology (ICEEST)</em>, pp. 1–6, 2019.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/ICEEST48626.2019.8981673" target="_blank" rel="noopener">DOI</a>
-            </span>
+            <span class="pub-title">A Semantic Encoding of Object-Centric Event Data.</span>
+            <span class="pub-authors"><strong>S. Latif</strong>, F. J. Ekaputra, M. Vidgof, S. Kirrane, C. Di Ciccio</span>
+            <span class="pub-venue"><em>arXiv preprint</em>, 2025.</span>
           </li>
+        </ol>
 
+        <h3>Formal Methods & Verification (selected)</h3>
+        <ol class="pub-list">
           <li class="pub-item">
-            <span class="pub-title">
-              Automated UML-based formal model of e-health system.
-            </span>
-            <span class="pub-authors">
-              M. Khalid, H. Afzaal, S. Hassan, N. A. Zafar, <strong>S. Latif</strong>, A. Rehman
-            </span>
-            <span class="pub-venue">
-              In <em>2019 13th International Conference on Mathematics, Actuarial Science, Computer Science and Statistics (MACS)</em>, pp. 1–6, 2019.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/MACS48846.2019.9024830" target="_blank" rel="noopener">DOI</a>
-            </span>
+            <span class="pub-title">Smart Airport Apron Management System: Formal Modeling Using VDM-SL.</span>
+            <span class="pub-authors"><strong>S. Latif</strong>, J. Ferzund</span>
+            <span class="pub-venue"><em>International Conference on Mathematics, Actuarial Science, Computer Science and Statistics</em>, 2019.</span>
           </li>
-
           <li class="pub-item">
-            <span class="pub-title">
-              Formal modeling of smart office using activity diagram and non deterministic finite automata.
-            </span>
-            <span class="pub-authors">
-              A. Rehman, <strong>S. Latif</strong>, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2019 International Conference on Information Science and Communication Technology (ICISCT)</em>, pp. 1–5, 2019.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/CISCT.2019.8777444" target="_blank" rel="noopener">DOI</a>
-            </span>
+            <span class="pub-title">Automata-Based Railway Gate Control System at Level Crossing.</span>
+            <span class="pub-authors">A. Rehman, <strong>S. Latif</strong>, N. A. Zafar</span>
+            <span class="pub-venue"><em>International Conference on Communication Technologies</em>, 2019.</span>
           </li>
-
           <li class="pub-item">
-            <span class="pub-title">
-              Automata based railway gate control system at level crossing.
-            </span>
-            <span class="pub-authors">
-              S. Rehman, L. Aniqa, <strong>S. Latif</strong>, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2019 International Conference on Communication Technologies (COMTECH)</em>, pp. 30–35, 2019.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/COMTECH.2019.8737833" target="_blank" rel="noopener">DOI</a>
-            </span>
-          </li>
-
-          <li class="pub-item">
-            <span class="pub-title">
-              Smart airport apron management system formal modeling using VDM-SL.
-            </span>
-            <span class="pub-authors">
-              <strong>S. Latif</strong>, J. Ferzund
-            </span>
-            <span class="pub-venue">
-              In <em>2019 13th International Conference on Mathematics, Actuarial Science, Computer Science and Statistics (MACS)</em>, pp. 1–6, 2019.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/MACS48846.2019.9024825" target="_blank" rel="noopener">DOI</a>
-            </span>
-          </li>
-
-          <li class="pub-item">
-            <span class="pub-title">
-              Blockchain and IoT based formal model of smart waste management system using TLA+.
-            </span>
-            <span class="pub-authors">
-              <strong>S. Latif</strong>, A. Rehman, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>Frontiers of Information Technology (FIT)</em>, Islamabad, Pakistan, pp. 304–309, 2019.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/FIT47737.2019.00064" target="_blank" rel="noopener">DOI</a>
-            </span>
-          </li>
-
-          <li class="pub-item">
-            <span class="pub-title">
-              NFA based formal modeling of smart parking system using TLA+.
-            </span>
-            <span class="pub-authors">
-              <strong>S. Latif</strong>, A. Rehman, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2019 International Conference on Information Science and Communication Technology (ICISCT)</em>, pp. 1–6, 2019.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/CISCT.2019.8777445" target="_blank" rel="noopener">DOI</a>
-            </span>
-          </li>
-
-          <li class="pub-item">
-            <span class="pub-title">
-              Non-deterministic formal modeling of registration system towards smart campus.
-            </span>
-            <span class="pub-authors">
-              S. Rehman, L. Aniqa, <strong>S. Latif</strong>, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2018 12th International Conference on Mathematics, Actuarial Science, Computer Science and Statistics (MACS)</em>, pp. 1–6, 2018.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/MACS.2018.8628373" target="_blank" rel="noopener">DOI</a>
-            </span>
-          </li>
-
-          <li class="pub-item">
-            <span class="pub-title">
-              Deterministic formal modeling of smart lightening system using Internet of Things.
-            </span>
-            <span class="pub-authors">
-              <strong>S. Latif</strong>, H. Afzaal, A. Rehman, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2018 12th International Conference on Mathematics, Actuarial Science, Computer Science and Statistics (MACS)</em>, pp. 1–6, 2018.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/MACS.2018.8628463" target="_blank" rel="noopener">DOI</a>
-            </span>
-          </li>
-
-          <li class="pub-item">
-            <span class="pub-title">
-              Modelling of graph-based smart parking system using Internet of Things.
-            </span>
-            <span class="pub-authors">
-              <strong>S. Latif</strong>, H. Afzaal, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2018 International Conference on Frontiers of Information Technology (FIT)</em>, Islamabad, Pakistan, pp. 7–12, 2018.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/FIT.2018.00009" target="_blank" rel="noopener">DOI</a>
-            </span>
-          </li>
-
-          <li class="pub-item">
-            <span class="pub-title">
-              Modeling of sewerage system linking UML, automata and TLA+.
-            </span>
-            <span class="pub-authors">
-              <strong>S. Latif</strong>, A. Rehman, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2018 International Conference on Computing, Electronic and Electrical Engineering (ICE Cube)</em>, pp. 1–6, 2018.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/ICECUBE.2018.8610971" target="_blank" rel="noopener">DOI</a>
-            </span>
-          </li>
-
-          <li class="pub-item">
-            <span class="pub-title">
-              Intelligent traffic monitoring and guidance system for smart city.
-            </span>
-            <span class="pub-authors">
-              <strong>S. Latif</strong>, H. Afzaal, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2018 International Conference on Computing, Mathematics and Engineering Technologies (iCoMET)</em>, pp. 1–6, 2018.
-            </span>
-          </li>
-
-          <li class="pub-item">
-            <span class="pub-title">
-              A survey on protein protein interactions (PPI) methods, databases, challenges and future directions.
-            </span>
-            <span class="pub-authors">
-              H. Umbrin, <strong>S. Latif</strong>
-            </span>
-            <span class="pub-venue">
-              In <em>2018 International Conference on Computing, Mathematics and Engineering Technologies (iCoMET)</em>, pp. 1–6, 2018.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/ICOMET.2018.8346326" target="_blank" rel="noopener">DOI</a>
-            </span>
-          </li>
-
-          <li class="pub-item">
-            <span class="pub-title">
-              Modeling of sewerage system using Internet of Things for smart city.
-            </span>
-            <span class="pub-authors">
-              <strong>S. Latif</strong>, H. Afzaal, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2017 International Conference on Frontiers of Information Technology (FIT)</em>, Islamabad, Pakistan, pp. 46–51, 2017.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/FIT.2017.00016" target="_blank" rel="noopener">DOI</a>
-            </span>
-          </li>
-
-          <li class="pub-item">
-            <span class="pub-title">
-              A survey of security and privacy issues in IoT for smart cities.
-            </span>
-            <span class="pub-authors">
-              <strong>S. Latif</strong>, N. A. Zafar
-            </span>
-            <span class="pub-venue">
-              In <em>2017 Fifth International Conference on Aerospace Science and Engineering (ICASE)</em>, pp. 1–5, 2017.
-            </span>
-            <span class="pub-links">
-              <a href="https://doi.org/10.1109/ICASE.2017.8374288" target="_blank" rel="noopener">DOI</a>
-            </span>
+            <span class="pub-title">Blockchain and IoT Based Formal Model of Smart Waste Management System Using TLA+.</span>
+            <span class="pub-authors"><strong>S. Latif</strong>, A. Rehman, N. A. Zafar</span>
+            <span class="pub-venue"><em>Frontiers of Information Technology (FIT)</em>, 2019.</span>
           </li>
         </ol>
       </div>
     </section>
 
-    <!-- ===== Activities: Summer Schools & Conferences ===== -->
-    <section id="activities" class="section alt">
+    <!-- ===== Experience ===== -->
+    <section id="experience" class="section alt">
       <div class="container">
-        <h2>Activities</h2>
+        <h2>Academic & Industry Experience</h2>
+
         <div class="cards-grid">
           <article class="card">
-            <h3>Summer Schools</h3>
-            <ul class="simple-list">
-              <li>
-                <strong>Reactive Synthesis 2023</strong> – Main Achievements and Current Trends, Third Edition of the UnivR/UniUd Summer School on Formal Methods for Cyber-Physical Systems, Italy (2023).
-              </li>
-              <li>
-                <strong>Process Mining Summer School 2022</strong> – Applications on Process Mining Summer School, Aachen, Germany (2022).
-              </li>
-              <li>
-                <strong>BUCA 22</strong> – Challenges in Building Billion-User Cloud, Bertinoro, Italy (2022).
-              </li>
-            </ul>
+            <h3>IGCSE Computer Science & Mathematics Lecturer</h3>
+            <p class="meta">Madani International School Rome · 2021–2023 · Rome, Italy</p>
+            <p>
+              Lecturer for two sessions of IGCSE Computer Science and Mathematics.
+            </p>
           </article>
 
           <article class="card">
-            <h3>Conferences</h3>
+            <h3>Research Associate (Formal Methods)</h3>
+            <p class="meta">COMSATS University (Pakistan) · 2018–2021</p>
+            <p>
+              Development and modeling of blockchain-based architectures using formal methods for secure IoT applications
+              in smart city scenarios.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Instructor (Short Computer Courses)</h3>
+            <p class="meta">Govt Technical College (Pakistan) · 2017–2018</p>
+            <p>
+              Taught short courses including web development and design.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Web Development & Design Teacher</h3>
+            <p class="meta">Desired Technologies (Pakistan) · 2015–2017</p>
+            <p>
+              Practical teaching in web development and design tools for students and early-career developers.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Ph.D. in Computer Science</h3>
+            <p class="meta">Sapienza University of Rome, Italy · 2021–2026</p>
+            <p>
+              Thesis: <em>A semantic and formal encoding of object-centric event data</em><br />
+              Advisor: Prof. Claudio Di Ciccio
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>M.Sc. in Computer Science (Formal Methods)</h3>
+            <p class="meta">COMSATS University Islamabad, Pakistan · 2016–2018</p>
+            <p>
+              Thesis: <em>Modelling of smart city components using IoT and TLA+</em><br />
+              Advisor: Prof. Nazir Ahmed Zafar
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>B.Sc. in Information Technology</h3>
+            <p class="meta">Bahaudin Zakariya University, Multan, Pakistan · 2011–2016</p>
+            <p>
+              Thesis: <em>Smart Home Automation System</em>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Talks ===== -->
+    <section id="talks" class="section alt">
+      <div class="container">
+        <h2>Invited Talk</h2>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>A Semantic Encoding for the Specification of the Object Centric Event Data (OCED) Meta-model</h3>
+            <p class="meta">Institute for Data, Process and Knowledge Management · Vienna, Austria</p>
+            <p>
+              Invited talk link:
+              <a href="https://www.wu.ac.at/en/dpkm/news-details/detail/guest-talk-a-semantic-encoding-for-the-specification-of-the-object-centric-event-data-oced-meta-model"
+                 target="_blank" rel="noopener">
+                event page
+              </a>.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Service & Visits ===== -->
+    <section id="service" class="section">
+      <div class="container">
+        <h2>Research Visits & Service</h2>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Research Visit</h3>
+            <p class="meta">Institute for Data, Process and Knowledge Management · Vienna · Feb 2024 – May 2024</p>
+            <p>
+              Visiting period (3 months). Collaborator: Prof. Sabrina Kirrane.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Conference Service</h3>
+            <p class="meta">International Conference on Process Mining (ICPM)</p>
+            <p>
+              Organizer: ICPM 2023
+              (<a href="https://icpmconference.org/2023/" target="_blank" rel="noopener">conference site</a>).
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Training & Professional Events</h3>
             <ul class="simple-list">
-              <li>
-                <strong>ICPM 2024</strong> – 6th International Conference on Process Mining, Lyngby, Denmark.
-              </li>
-              <li>
-                <strong>ICPM 2023</strong> – 5th International Conference on Process Mining, Rome, Italy.
-              </li>
-              <li>
-                <strong>ICPM 2022</strong> – 4th International Conference on Process Mining, Bolzano, Italy.
-              </li>
+              <li><strong>BUCA</strong> (Bertinoro, Italy) · 19 Jun 2022 – 24 Jun 2022</li>
+              <li><strong>Process Mining Summer School</strong> (RWTH Aachen, Germany) · 4 Jul 2022 – 8 Jul 2022</li>
+              <li><strong>ICPM 2022</strong> (Bolzano, Italy) · 23 Oct 2022 – 28 Oct 2022</li>
+              <li><strong>Reactive Synthesis Summer School</strong> (Udine, Italy) · 28 Aug 2023 – 1 Sep 2023</li>
+              <li><strong>ICPM 2023</strong> (Rome, Italy) · 23 Oct 2023 – 27 Oct 2023</li>
+              <li><strong>ICPM 2024</strong> (Lyngby, Denmark) · 14 Oct 2024 – 18 Oct 2024</li>
             </ul>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- ===== Awards & Achievements ===== -->
-    <section id="awards" class="section">
+    <!-- ===== Awards ===== -->
+    <section id="awards" class="section alt">
       <div class="container">
-        <h2>Awards & Achievements</h2>
+        <h2>Awards, Scholarships & Fellowships</h2>
+
         <div class="cards-grid">
           <article class="card">
-            <h3>Scholarships & Fellowships</h3>
-            <ul class="simple-list">
-              <li>
-                <strong>Mobility scholarship</strong>, granted by Sapienza University of Rome, 2023.
-              </li>
-              <li>
-                <strong>Ph.D. Fellowship</strong>, granted by Sapienza University of Rome, 2021.
-              </li>
-              <li>
-                <strong>US AID Scholarship for Master</strong>, awarded by USAID program managed by HEC Pakistan.
-              </li>
-            </ul>
+            <h3>Sapienza PhD Fellowship for Foreigners</h3>
+            <p class="meta">2021–2026</p>
           </article>
 
           <article class="card">
-            <h3>Other Recognitions</h3>
-            <ul class="simple-list">
-              <li>
-                Awarded laptop from Higher Education Commission (HEC) Pakistan, 2019.
-              </li>
-              <li>
-                Nominated for <strong>Women’s Empowerment in Education</strong> and invited by Higher Education Commission Pakistan, 2012.
-              </li>
-            </ul>
+            <h3>USAID Scholarship (M.Sc.)</h3>
+            <p class="meta">2016–2018</p>
+          </article>
+
+          <article class="card">
+            <h3>Laptop Scheme Winner</h3>
+            <p class="meta">2018</p>
+          </article>
+
+          <article class="card">
+            <h3>Employee of the Month Award</h3>
+            <p class="meta">Desired Technologies · 2016</p>
           </article>
         </div>
       </div>
     </section>
 
     <!-- ===== Skills ===== -->
-    <section id="skills" class="section alt">
+    <section id="skills" class="section">
       <div class="container">
-        <h2>Skills</h2>
+        <h2>Technical Skills</h2>
+
         <div class="cards-grid">
           <article class="card">
+            <h3>Formal Methods & Verification</h3>
+            <p>VDM-SL, TLA/TLA+, Alloy, UPPAAL, SPIN</p>
+          </article>
+
+          <article class="card">
+            <h3>Programming & Data</h3>
+            <p>Python, Java, C/C++, MATLAB</p>
+          </article>
+
+          <article class="card">
+            <h3>Semantic Technologies & Process Mining</h3>
+            <p>RDF/OWL, SPARQL, Knowledge Graphs, Process Mining, LaTeX</p>
+          </article>
+
+          <article class="card">
             <h3>Languages</h3>
-            <p>
-              Strong reading, writing, and speaking competencies in <strong>English</strong>, <strong>Urdu</strong>, and <strong>Punjabi</strong>.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Coding & Formal Languages</h3>
-            <p>
-              TLA+, VDM-SL, RDF, C++, Java, MATLAB, OWL, SPARQL, Python, LaTeX.
-            </p>
-          </article>
-
-          <article class="card">
-            <h3>Other Skills</h3>
-            <p>
-              <strong>Graphic design</strong>: Adobe Illustrator, Adobe Photoshop.<br />
-              <strong>Academic</strong>: Academic research, scientific writing.
-            </p>
+            <p>Urdu (Native), English (Fluent), Italian (Intermediate)</p>
           </article>
         </div>
       </div>
     </section>
 
     <!-- ===== Contact ===== -->
-    <section id="contact" class="section">
+    <section id="contact" class="section alt">
       <div class="container">
         <h2>Contact</h2>
+
         <div class="contact-grid">
           <div>
             <p>
               <strong>Email:</strong><br />
-              <a href="mailto:sabalatif023@gmail.com">sabalatif023@gmail.com</a><br />
-              <a href="mailto:latif@di.uniroma1.it">latif@di.uniroma1.it</a>
+              <a href="mailto:saba.latif@uniroma1.it">saba.latif@uniroma1.it</a>
             </p>
             <p>
               <strong>Affiliation:</strong><br />
@@ -612,18 +469,20 @@
               Rome, Italy
             </p>
           </div>
+
           <div>
             <p>
               <strong>Profiles:</strong><br />
-              <a href="https://scholar.google.com/citations?hl=en&user=symN9XYAAAAJ" target="_blank" rel="noopener">
-                Google Scholar
-              </a><br />
-              <a href="https://www.linkedin.com/in/saba-latif-8b053b244" target="_blank" rel="noopener">
-                LinkedIn
-              </a>
+              <a href="https://sabalati.github.io/" target="_blank" rel="noopener">Website</a><br />
+              <a href="https://scholar.google.com/citations?user=symN9XYAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a><br />
+              <a href="https://www.linkedin.com/in/saba-latif-8b053b244/" target="_blank" rel="noopener">LinkedIn</a>
             </p>
           </div>
         </div>
+
+        <p class="meta">
+          Last updated: <span id="lastUpdated"></span>
+        </p>
       </div>
     </section>
   </main>
@@ -631,20 +490,19 @@
   <!-- ===== Footer ===== -->
   <footer class="site-footer">
     <div class="container footer-content">
-      <span>
-        © <span id="year"></span> Saba Latif.
-      </span>
-      <span class="footer-note">
-        Built with <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
-      </span>
+      <span>© <span id="year"></span> Saba Latif.</span>
+      <span class="footer-note">Built with GitHub Pages.</span>
     </div>
-    <button class="back-to-top" type="button" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">
-      ↑ Top
-    </button>
+
+    <button class="back-to-top" type="button" onclick="window.scrollTo({top: 0, behavior: 'smooth'});">↑ Top</button>
+
     <script>
-      // Set current year automatically
-      document.getElementById("year").textContent =
-        new Date().getFullYear();
+      document.getElementById("year").textContent = new Date().getFullYear();
+      // Display last updated as YYYY-MM-DD
+      const d = new Date();
+      const pad = (n) => String(n).padStart(2, "0");
+      document.getElementById("lastUpdated").textContent =
+        `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
     </script>
   </footer>
 </body>
